@@ -15,8 +15,8 @@ class SMS:
     def __init__(self, sender: str) -> None:
         self.sender = sender
         
-    def send_sms(self, recipent: str, message: str) -> bool:
-        print(f'\nDe: {self.sender} \nPara: {recipent} \nMensagem: {message} \nSMS enviado!')
+    def send_sms(self, number: str, message: str) -> bool:
+        print(f'\nDe: {self.sender} \nPara: {number} \nMensagem: {message} \nSMS enviado!')
         return True
 
 # Classe - Push
